@@ -19,7 +19,7 @@ router.get('/create', (req, res) => {
         isCreate: true
     });
 });
-// обработка создание заметок через метод POST
+// обработка создание заметок через метод POST кек
 router.post('/create', async (req, res) => {
     // создание новой Todo
     const todo = new Todo({

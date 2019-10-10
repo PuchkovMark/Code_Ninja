@@ -40,5 +40,6 @@ async function start () {
         console.log(err);  // обработка (вывод) ошибки в консоль
     }
 }
+module.exports = app;
 // чтобы все работало вызываем функцию старт
 start();
